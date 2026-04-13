@@ -154,6 +154,7 @@ table {
   display: grid;
   grid-template-rows: auto auto 1fr auto;
   min-height:100vh;
+  /* Este grid fue utilizado para tener un layout más organizado. */
 }
 
 nav ul {
@@ -172,4 +173,12 @@ gap: 20px;
 /* Por lo que entendí, para poner dos columnas se debe de usar dos veces 1fr
 Esto porque cada fr es una columna.
  El gap te permite hacer el espaciado entre cada lista. */
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* Se agregó el flex para dividirlo en columnas, pero que a la vez se vea horizontal.
+   */
 }
