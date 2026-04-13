@@ -7,86 +7,92 @@
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
-    <header>
-      <h1>Instituto de Asistencia Social - IAS</h1>
-      <h2>Organismo de Control de Juegos de Azar</h2>
-      <nav>
-        <a href="index.html">Inicio</a>
-        <a href="sobre-ias.html">Sobre el IAS</a>
-        <a href="funciones.html">Funciones</a>
-        <a href="contacto.html">Contacto</a>
-      </nav>
-    </header>
+    <div class="contenedor">
+      <header>
+        <h1>Instituto de Asistencia Social - IAS</h1>
+        <h2>Organismo de Control de Juegos de Azar</h2>
+        <nav>
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="sobre-ias.html">Sobre el IAS</a></li>
+            <li><a href="funciones.html">Funciones</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+      </header>
 
-    <main>
-      <h2 class="para-centrar">Contacto</h2>
-      <section>
-        <ul>
-          <li>
-            Dirección:
-            <address>
-              <a
-                href="https://www.google.com/maps/place/Instituto+de+Asistencia+Social/@-26.1824476,-58.1675251,17z/data=!3m1!4b1!4m6!3m5!1s0x945ca5dd94bf8b9f:0xc46100b79e1161f8!8m2!3d-26.1824524!4d-58.1649502!16s%2Fg%2F1v420k3f?authuser=2&entry=ttu&g_ep=EgoyMDI2MDQwMS4wIKXMDSoASAFQAw%3D%3D"
-                target="_blank"
+      <main>
+        <h2 class="para-centrar">Contacto</h2>
+        <section>
+          <ul>
+            <li>
+              Dirección:
+              <address>
+                <a
+                  href="https://www.google.com/maps/place/Instituto+de+Asistencia+Social/@-26.1824476,-58.1675251,17z/data=!3m1!4b1!4m6!3m5!1s0x945ca5dd94bf8b9f:0xc46100b79e1161f8!8m2!3d-26.1824524!4d-58.1649502!16s%2Fg%2F1v420k3f?authuser=2&entry=ttu&g_ep=EgoyMDI2MDQwMS4wIKXMDSoASAFQAw%3D%3D"
+                  target="_blank"
+                >
+                  Av. 25 de Mayo 098, P3600ACK Formosa
+                </a>
+              </address>
+            </li>
+            <li>Teléfonos: 3716459464</li>
+            <li>
+              Correo electrónico:
+              <a href="mailto:lautastico113@gmail.com"
+                >lautastico113@gmail.com</a
               >
-                Av. 25 de Mayo 098, P3600ACK Formosa
-              </a>
-            </address>
-          </li>
-          <li>Teléfonos: 3716459464</li>
-          <li>
-            Correo electrónico:
-            <a href="mailto:lautastico113@gmail.com">lautastico113@gmail.com</a>
-          </li>
-        </ul>
-      </section>
-      <!--Formulario de contacto que permite a los usuarios enviar consultas,
+            </li>
+          </ul>
+        </section>
+        <!--Formulario de contacto que permite a los usuarios enviar consultas,
 seleccionando un motivo y escribiendo un mensaje-->
 
-      <form id="formulario-contacto" action="#" method="post">
-        <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" placeholder="Tu nombre" required />
+        <form id="formulario-contacto" action="#" method="post">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" placeholder="Tu nombre" required />
 
-        <br /><br />
+          <br /><br />
 
-        <label for="email">Email:</label>
-        <input type="email" id="email" placeholder="Tu email" required />
+          <label for="email">Email:</label>
+          <input type="email" id="email" placeholder="Tu email" required />
 
-        <br /><br />
+          <br /><br />
 
-        <label for="telefono">Teléfono:</label>
-        <input type="tel" id="telefono" placeholder="Tu teléfono" />
+          <label for="telefono">Teléfono:</label>
+          <input type="tel" id="telefono" placeholder="Tu teléfono" />
 
-        <br /><br />
+          <br /><br />
 
-        <label for="motivo">Motivo de consulta:</label>
-        <select id="motivo">
-          <option>Consulta general</option>
-          <option>Denuncia</option>
-          <option>Información</option>
-        </select>
+          <label for="motivo">Motivo de consulta:</label>
+          <select id="motivo">
+            <option>Consulta general</option>
+            <option>Denuncia</option>
+            <option>Información</option>
+          </select>
 
-        <br /><br />
+          <br /><br />
 
-        <label for="mensaje">Mensaje:</label>
-        <textarea
-          id="mensaje"
-          placeholder="Escribí tu mensaje"
-          required
-        ></textarea>
+          <label for="mensaje">Mensaje:</label>
+          <textarea
+            id="mensaje"
+            placeholder="Escribí tu mensaje"
+            required
+          ></textarea>
 
-        <br /><br />
+          <br /><br />
 
-        <button class="btn-enviar" type="submit">Enviar</button>
-      </form>
+          <button class="btn-enviar" type="submit">Enviar</button>
+        </form>
 
-      <details>
-        <summary>Horarios de atención</summary>
-        <p>Lunes a viernes: 8:00 a 18:00</p>
-        <p>Sábados: 9:00 a 13:00</p>
-      </details>
-    </main>
+        <details>
+          <summary>Horarios de atención</summary>
+          <p>Lunes a viernes: 8:00 a 18:00</p>
+          <p>Sábados: 9:00 a 13:00</p>
+        </details>
+      </main>
 
-    <footer>&copy; Derechos Reservados 2026</footer>
+      <footer>&copy; Derechos Reservados 2026</footer>
+    </div>
   </body>
 </html>

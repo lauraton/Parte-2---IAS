@@ -132,3 +132,18 @@ table {
     text-align: center;
     margin: auto;
 }
+
+.contenedor {
+  display: grid;
+  grid-template-rows: auto auto 1fr auto;
+  min-height:100vh;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  /* Los "space-evenly" y parecidos, se acomodan a lo necesario al nav
+  También, el de center puede adecuarse. El resto suelen ser usados
+  para alinearlos al principio del texto. */
+}
