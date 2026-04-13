@@ -44,12 +44,29 @@ figcaption {
   padding: 15px;
   border: 1px solid #ccc;
   border-radius: 10px;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+#formulario-contacto label {
+  width: 100%;
 }
 
 input, textarea, select {
-  width: 100%;
   padding: 8px;
   margin-top: 5px;
+}
+
+#formulario-contacto input,
+#formulario-contacto select {
+  width: 100%;
+}
+
+#formulario-contacto textarea,
+#formulario-contacto button {
+  width: 100%;
 }
 
 button {
