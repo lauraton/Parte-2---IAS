@@ -147,3 +147,12 @@ nav ul {
   También, el de center puede adecuarse. El resto suelen ser usados
   para alinearlos al principio del texto. */
 }
+
+.column {
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 20px;
+/* Por lo que entendí, para poner dos columnas se debe de usar dos veces 1fr
+Esto porque cada fr es una columna.
+ El gap te permite hacer el espaciado entre cada lista. */
+}
